@@ -24,7 +24,7 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-print ("5.Exponention")
+print ("5.Exponential")
 print ("6.Sqare root")
 
 while True:
