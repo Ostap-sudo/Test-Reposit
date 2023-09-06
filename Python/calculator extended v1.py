@@ -24,7 +24,7 @@ print("1.Add")
 print("2.Subtract")
 print("3.Multiply")
 print("4.Divide")
-print ("5.Exponential")
+print ("5.Exponention")
 print ("6.Sqare root")
 
 while True:
@@ -52,7 +52,7 @@ while True:
         elif choice == '4':
             print(num1, "/", num2, "=", divide(num1, num2))
         elif choice == '5':
-            print(num1, "**", num2,"=", exponential(num1, num2))
+            print(num1, "**", num2,"=", exponention(num1, num2))
         elif choice == '6':
             print("math.sqrt(num1)", "=", math.sqrt(num1) , "math.sqrt(num2)", "=", math.sqrt(num2))
         # check if user wants another calculation
