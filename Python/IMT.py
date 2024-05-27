@@ -1,6 +1,7 @@
 h = float(input("Print your height (in meters): "))
 w = int(input("Print your weight in kg: "))
 IMT = w/(h*h)
+print("Your IMT is:")
 print(round(IMT,2))
 if IMT < 18.5:
 	print ("Underweight")
